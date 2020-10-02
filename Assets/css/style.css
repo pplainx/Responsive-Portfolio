@@ -1,0 +1,233 @@
+/* GLOBAL */
+
+body {
+    background-image: url("../Images/ripples.png");
+}
+
+.wrapper {
+    min-height: calc(100vh - 58px);
+}
+
+nav {
+    border-bottom: 2px solid #ccc;
+}
+
+.navbar {
+    padding: 0;
+}
+
+nav .container {
+    padding: 0;
+}
+
+nav .row {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.logo {
+    padding: 0;
+}
+
+.navbar-brand {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    color: white;
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #4aaaa5;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-links {
+    padding-right: 0;
+    justify-content: flex-end;
+}
+
+.nav-links a {
+    padding: 0 15px;
+    margin: 15px 0;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.nav-links a:last-of-type {
+    padding: 0 0 0 15px;
+}
+
+.middle-link {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.main-content {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px 30px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    font-size: 30px;
+    line-height: 2;
+    font-weight: bold;
+    display: block;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 25px;
+}
+
+p {
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777;
+    line-height: 1.75;
+}
+
+footer {
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
+    clear: both;
+    box-sizing: border-box;
+    height: 58px;
+    overflow: hidden;
+}
+
+.copyright {
+    color: white;
+    font-size: 10px;
+    line-height: 1;
+    padding-top: 20px;
+}
+
+
+/* About page */
+
+.headshot {
+    float: left;
+    width: 160px;
+    margin: 0 35px 15px 0;
+}
+
+
+/* Portfolio page */
+
+.portImgContainer {
+    padding: 0;
+}
+
+.Coding,
+.Anime,
+.Work,
+.Food,
+.Games {
+    margin: 0 15px 25px;
+    width: 335px;
+    height: 285px;
+    position: relative;
+    background-size: cover;
+}
+
+.Coding {
+    background-image: url("../Images/what-is-coding-1024x683.jpg");
+}
+
+.Anime {
+    background-image: url("../Images/ply0947_fall_reviews_2019_tv_anime.0.jpg");
+}
+
+.Work {
+    background-image: url("../Images/iStock-998334492.jpg");
+}
+
+.Food {
+    background-image: url("../Images/table_with_food_top_view_900x700.jpg");
+}
+
+.Games {
+    background-image: url("../Images/gamespot.jp2");
+}
+
+.teal-cap {
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+/* Contact page */
+
+#full-name,
+#email {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.clickme {
+    border: none;
+    background-color: #4aaaa5;
+    padding: 8px 20px;
+    color: white;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+form {
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777;
+    line-height: 1.75;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width:575px) {
+    .logo {
+        background-color: #4aaaa5;
+        text-align: center;
+    }
+    .nav-links {
+        justify-content: center;
+        padding: 0;
+    }
+    .nav-links a:last-of-type {
+        padding: 0 15px;
+    }
+    .main-content {
+        width: calc(100vw - 40px);
+    }
+    .headshot {
+        width: 100%;
+        margin: 15px 0;
+    }
+    .Coding,
+    .Anime,
+    .Work,
+    .Food,
+    .Games {
+        width: 100%;
+        height: 250px;
+    }
+}
