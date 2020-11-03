@@ -1,62 +1,157 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Paris Plain</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+  <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Page Title -->
+        <title>Paris Plain - Personal Portfolio</title>
+        <!-- Plugins -->
+        <link rel="stylesheet" href="assets/css/plugins.min.css">
+        <!-- Custom css file -->
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="ms-preloader"></div>
+        <!-- Wrapper -->
+            <div class="ms-main-container">
 
-<body>
-    <div class="wrapper">
-        <nav class="navbar bg-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 logo">
-                        <a class="navbar-brand" href="./index.html">Paris Plain</a>
-                    </div>
-                    <div class="col-sm-6 nav-links d-flex align-items-center">
-                        <a href="./index.html">About</a>
-                        <a class="middle-link" href="./portfolio.html">Portfolio</a>
-                        <a href="./contact.html">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <section>
-            <div class="main-content container">
-                <div class="row">
-                    <div class="col-md-12 justify-content-right">
-                        <h2 class="content-right">About Me</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <img class="headshot" src="./Assets/Images/ParisPlain.jpg" alt="Paris Plain">
-                        <p>I am currenlty running my own cloud network business located in Detroit, MI. Ive been learning web development for the last 8 years. </p>
-                        <p>I was both born and raised in Michigan, i currently live with my girlfriend and our 2 cats.</p>
-                        <p>On my free time when Im not coding or working I watch anime and stuff my face with food. </p>
-                        <a href="http://facebook.com/" class="fa fa-facebook"></a>
-                        <a href="http://instagram.com/plainbutcreative" class="fa fa-instagram"></a>
+                <!-- Header -->
 
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 d-flex justify-content-center">
-                    <p class="copyright">Copyright &copy; 2020, Paris Plain</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-</body>
+                <!-- Responsive NavBurger -->
+                <button class="nav__btn">
+                    <span class="burger">
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                    </span>
+                    <span class="cross">
+                        <span class="cross__line"></span>
+                        <span class="cross__line"></span>
+                    </span>
+                </button>
+                <!-- /Responsive NavBurger -->
+                    <header class="ms-header">
+                        <nav class="ms-nav">
+                            <div class="ms-logo">
+                                <a href="index.html" data-type="page-transition">
+                                    <img src="assets/images/h-logo.svg" alt="logo">
+                                </a>
+                            </div>
+                            <!-- Navigation Menu -->
+                            <ul class="ms-navbar">
+                                <li class="ms-nav-item link active">
+                                    <a href="index.html">About</a>
+                                </li>
+                                <li class="ms-nav-item link">
+                                    <a href="portfolio.html" data-type="page-transition">Portfolio</a>
+                                </li>
+                                <li class="ms-nav-item link">
+                                    <a href="contact.html" data-type="page-transition">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+                <!-- /Header -->
 
+                <!-- Container -->
+                    <main class="ms-container">
+
+                        <!-- Body area -->
+                            <div class="ms-body">
+                                <div class="ms-body__caption">
+                                    <div class="ms-body__title">
+                                        <h1>Paris Plain</h1>
+                                        <p class="ms-body__subtitle">Full-Stack Web Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- /Body area -->
+
+                        <!-- About Content -->
+                            <div class="ms-section">
+
+                                <div class="ms-section__block about__content">
+                                    <img src="assets/images/me/pl-wide.jpg" alt="img">
+
+                                    <p>I have over 9 years of experience working in web development and graphic design. Currently, I am the Founder and Chief Executive Officer at Shared Space where I lead a cross-functional team of seven, building unique web applications that are helping people achieve more in their businesses! I'm deeply passionate about creating loved and trusted designs that help people navigate their careers and achieve their career goals.</p>
+
+                                </div>
+                                <div class="ms-section__block">
+                                    <header>
+                                        <h3>Skills</h3>
+                                        <p>Ever Learning Always Growing</p>
+                                    </header>
+                                    <div class="services-list row">
+                                        <ul class="col-md-3">
+                                            <li><h6>Web design</h6></li>
+                                            <li>User experience</li>
+                                            <li>Page layout</li>
+                                            <li>Typography</li>
+                                            <li>Icons</li>
+                                        </ul>
+                                        <ul class="col-md-3">
+                                            <li><h6>Web development</h6></li>
+                                            <li>HTML5</li>
+                                            <li>Javascript</li>
+                                            <li>CSS</li>
+                                            <li>PHP</li>
+                                        </ul>
+                                        <ul class="col-md-3">
+                                            <li><h6>Digital marketing</h6></li>
+                                            <li>Social media</li>
+                                            <li>Search engine</li>
+                                            <li>Google Analytics</li>
+                                            <li>Ecommerce</li>
+                                        </ul>
+                                        <ul class="col-md-3">
+                                            <li><h6>Visual communication</h6></li>
+                                            <li>Art direction</li>
+                                            <li>Graphic design</li>
+                                            <li>llustration</li>
+                                            <li>Branding</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+                                <div class="contrast-bg__black">
+                                    <div class="ms-section__block go-to-contacts">
+                                        <header>
+                                            <h3>Let me create your next website!</h3>
+                                            <p>Creativity meets "the know how" to build anything you want.</p>
+                                            <br>
+                                            <a href="contact.html" class="ms-btn__square" data-type="page-transition">Get in touch</a>
+                                        </header>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- /About Content -->
+
+                        <!-- Back to top button -->
+                        <a href="#" class="back-top"><i class="material-icons">arrow_upward</i></a>
+                    </main>
+                <!-- /Container -->
+
+                <!-- Footer -->
+                    <footer class="ms-footer">
+                        <ul class="footer-socials">
+                            <li><a href="#" class="ms-btn" target="_blank">Github</a></li>
+                            <li><a href="#" class="ms-btn" target="_blank">Linkdin</a></li>
+                            <li><a href="#" class="ms-btn" target="_blank">Facebook</a></li>
+                        </ul>
+                        <div class="copyright">2020 © ParisPlain</div>
+                    </footer>
+                <!-- /Footer -->
+
+            </div>
+        <!-- /Wrapper -->
+    <!-- JS -->
+    <!-- jquery-2.1.3.min js -->
+        <script src='assets/js/jquery-3.2.1.min.js'></script>
+    <!-- Plugins -->
+        <script src='assets/js/plugins.min.js'></script>
+    <!-- Main js -->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
